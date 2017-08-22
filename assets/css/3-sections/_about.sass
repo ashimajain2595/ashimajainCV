@@ -6,6 +6,7 @@
       +size(180px)
       +display(flex)
       margin: auto
+      +align-items(center)
       border-radius: 60%
       background: url(../img/face.JPG) no-repeat
 
@@ -18,7 +19,7 @@
     .flip-container
       perspective: 1000
       &:hover .flipper, &.hover .flipper
-        //transform: rotateY(0deg)
+        transform: rotateY(0deg)
       +size(200px)
       border-radius: 50%
       +order(3)
