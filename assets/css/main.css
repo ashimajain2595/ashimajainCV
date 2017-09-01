@@ -442,19 +442,19 @@ th {
   content: "\e000"; }
 
 .flaticon-cogwheel28:before {
-  content: "\e001"; }
+  \*content: "\e001";*\ }
 
 .flaticon-command9:before {
   content: "\e002"; }
 
 .flaticon-computer1:before {
-  content: "\e003"; }
+  \*content: "\e003";*\ }
 
 .flaticon-computer3:before {
   content: "\e004"; }
 
 .flaticon-computers13:before {
-  content: "\e005"; }
+  \*content: "\e005";*\ }
 
 .flaticon-computers3:before {
   content: "\e006"; }
@@ -469,7 +469,7 @@ th {
   content: "\e009"; }
 
 .flaticon-hosting:before {
-  content: "\e00a"; }
+  \*content: "\e00a";*\ }
 
 .flaticon-light61:before {
   content: "\e00b"; }
