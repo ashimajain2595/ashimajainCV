@@ -342,6 +342,7 @@ header .intro-text .timeline-image {
 	margin: 0 auto;
     font-weight: 700;
     background-color: #{{ site.data.template.color.primary }};
+    background-image: #{{ site.data.template.color.image }};
 }
 
 @media(min-width:768px) {
