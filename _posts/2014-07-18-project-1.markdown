@@ -1,0 +1,15 @@
+---
+title: Employee of the Year
+subtitle: 2019 - 2020
+layout: default
+modal-id: 1
+date: 2021-01-10
+img: ComingSoon.jpg
+thumbnail: ComingSoon.jpg
+alt: image-alt
+project-date: December 2019
+client: Samsung(SRI-D)
+category: Smart At Work
+description: Coming Soon
+
+---

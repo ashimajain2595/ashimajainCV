@@ -1,0 +1,15 @@
+---
+title: 2nd @ Hackathon
+subtitle: 2019 - 2020
+layout: default
+modal-id: 3
+date: 2019-10-10
+img: ComingSoon.jpg
+thumbnail: ComingSoon.jpg
+alt: image-alt
+project-date: October 2019
+client: Samsung(SRI-D) Hackathon
+category: Hackathon
+description: Coming Soon
+
+---

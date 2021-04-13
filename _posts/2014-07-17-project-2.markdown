@@ -1,0 +1,15 @@
+---
+title: Project of the Year
+subtitle: 2018 - 2019
+layout: default
+modal-id: 2
+date: 2021-01-09
+img: ComingSoon.jpg
+thumbnail: ComingSoon.jpg
+alt: image-alt
+project-date: December 2018
+client: Samsung (SRI-D)
+category: Best Successful Project of the Year
+description: Coming Soon
+
+---
