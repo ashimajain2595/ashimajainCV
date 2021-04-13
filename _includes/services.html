@@ -8,11 +8,11 @@
                 </div>
             </div>
             <div class="col-md-6">
-              {% for skill in site.skills %}
+              {% for skill in site.people %}
                 <div class="skill-progress">
                    <div class="skill-title"> <span>{{skill.name}}</span> </div>
                    <div class="progress">
-                      <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.level}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.level}}%;"> <span>79%</span> </div>
+                      <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.pic}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.pic}}%;"> <span>{{skill.pic}}%</span> </div>
                    </div>
                 </div>
               {% endfor %}
