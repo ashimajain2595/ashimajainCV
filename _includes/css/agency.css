@@ -874,7 +874,7 @@ ul.social-buttons li a.facebook:active {
 }
 
 ul.social-buttons li a.github{
-  background-color: #000;
+  background-color: #4078c0;
 }
 ul.social-buttons li a.github:hover,
 ul.social-buttons li a.github:focus,
@@ -1373,14 +1373,8 @@ body {
     background-image: none;
 }
 
-.progress {
+.progress:hover {
     height: 10px;
-    margin-bottom: 40px;
-    background-color: #3a4149;
-    border-radius: 3px;
-    box-shadow: 0 0 1px rgb(0 0 0 / 60%);
-    -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 60%);
-    width: 45%;
 }
 .progress {
     height: 20px;
@@ -1390,19 +1384,15 @@ body {
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
     box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
-}
-.progress {
-    background-image: -webkit-linear-gradient(top, #ebebeb 0, #f5f5f5 100%);
-    background-image: -o-linear-gradient(top, #ebebeb 0, #f5f5f5 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#f5f5f5));
-    background-image: linear-gradient(to bottom, #ebebeb 0, #f5f5f5 100%);
+    width: 45%;
     background-repeat: repeat-x;
 }
+
 .progress .progress-bar.six-sec-ease-in-out {
-    -webkit-transition: width 4s ease-in-out;
-    -moz-transition: width 4s ease-in-out;
-    -o-transition: width 4s ease-in-out;
-    transition: width 4s ease-in-out;
+    -webkit-transition: width 4s ease-in-out !important;
+    -moz-transition: width 4s ease-in-out !important;
+    -o-transition: width 4s ease-in-out !important;
+    transition: width 4s ease-in-out !important;
 }
 /* .progress .progress-bar.six-sec-ease-in-out {
     -webkit-transition: width 6s ease-in-out;
@@ -1414,10 +1404,6 @@ body {
     background-image: linear-gradient(to bottom,#3b8269 0,#68c3a3 100%);
 }
 .progress-bar {
-    background-image: -webkit-linear-gradient(top, #337ab7 0, #286090 100%);
-    background-image: -o-linear-gradient(top, #337ab7 0, #286090 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#286090));
-    background-image: linear-gradient(to bottom, #337ab7 0, #286090 100%);
     background-repeat: repeat-x;
 }
 .progress-bar {
