@@ -11,6 +11,4 @@ project-date: October 2019
 client: Samsung(SRI-D) Hackathon
 category: Hackathon
 description: Coming Soon
-name: Python11
-level: 80
 ---
