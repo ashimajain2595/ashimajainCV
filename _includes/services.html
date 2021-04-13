@@ -7,12 +7,12 @@
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
-            {% for skill in site.people %}
+            {% for skill in site.data.template.skills  %}
               <div class="col-md-6">
                   <div class="skill-progress">
                      <div class="skill-title"> <span>{{skill.name}}</span> </div>
                      <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.pic}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.pic}}%;"> <span>{{skill.pic}}%</span> </div>
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.level}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.level}}%;"> <span>{{skill.level}}%</span> </div>
                      </div>
                   </div>
               </div>

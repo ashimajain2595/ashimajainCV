@@ -14,7 +14,6 @@ $(function() {
         event.preventDefault();
     });
 });
-console.log({{site.people}});
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
