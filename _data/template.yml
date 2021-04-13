@@ -1,10 +1,10 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 68c3a3
-  secondary: 57c195
+  primary: 69c1e4
+  secondary: 43788c
   secondary-dark: 333
   muted: 777
-  image: linear-gradient(to bottom,#3b8269 0,#68c3a3 100%);
+  image: linear-gradient(to bottom,#43788c 0,#69c1e4 100%);
 
 # Font Families
 font:
