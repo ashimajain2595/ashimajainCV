@@ -1404,12 +1404,12 @@ body {
     -o-transition: width 4s ease-in-out;
     transition: width 4s ease-in-out;
 }
-.progress .progress-bar.six-sec-ease-in-out {
+/* .progress .progress-bar.six-sec-ease-in-out {
     -webkit-transition: width 6s ease-in-out;
     -moz-transition: width 6s ease-in-out;
     -o-transition: width 6s ease-in-out;
     transition: width 6s ease-in-out;
-}
+} */
 .progress-bar.six-sec-ease-in-out {
     background-image: linear-gradient(to bottom,#3b8269 0,#68c3a3 100%);
 }
