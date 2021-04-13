@@ -11,5 +11,7 @@ project-date: December 2019
 client: Samsung(SRI-D)
 category: Smart At Work
 description: Coming Soon
+name: Python
+level: 90
 
 ---

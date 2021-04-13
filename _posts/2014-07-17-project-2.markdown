@@ -11,5 +11,7 @@ project-date: December 2018
 client: Samsung (SRI-D)
 category: Best Successful Project of the Year
 description: Coming Soon
+name: Python1
+level: 90
 
 ---
