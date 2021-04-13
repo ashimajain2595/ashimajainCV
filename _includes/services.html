@@ -7,12 +7,12 @@
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
-            {% for post in site.posts %}
+            {% for skill in site.people %}
               <div class="col-md-6">
                   <div class="skill-progress">
                      <div class="skill-title"> <span>Python</span> </div>
                      <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> <span>79%</span> </div>
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.name}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.pic}}%;"> <span>{{skill.pic}}%</span> </div>
                      </div>
                   </div>
               </div>
