@@ -10,9 +10,9 @@
             {% for skill in site.people %}
               <div class="col-md-6">
                   <div class="skill-progress">
-                     <div class="skill-title"> <span>Python</span> </div>
+                     <div class="skill-title"> <span>{{skill.name}}</span> </div>
                      <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.name}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.pic}}%;"> <span>{{skill.pic}}%</span> </div>
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.pic}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.pic}}%;"> <span>{{skill.pic}}%</span> </div>
                      </div>
                   </div>
               </div>
