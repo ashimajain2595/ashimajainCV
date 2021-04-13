@@ -8,11 +8,11 @@
                 </div>
             </div>
             <div class="col-md-6">
-              {% for post in site.posts %}
+              {% for skill in site.skills %}
                 <div class="skill-progress">
-                   <div class="skill-title"> <span>{{post.name}}</span> </div>
+                   <div class="skill-title"> <span>{{skill.name}}</span> </div>
                    <div class="progress">
-                      <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{post.level}}" aria-valuemin="0" aria-valuemax="100" style="width: {{post.level}}%;"> <span>79%</span> </div>
+                      <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{skill.level}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.level}}%;"> <span>79%</span> </div>
                    </div>
                 </div>
               {% endfor %}
