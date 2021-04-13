@@ -8,47 +8,14 @@
                 </div>
             </div>
             <div class="col-md-6">
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>Python</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> <span>79%</span> </div>
-                 </div>
-              </div>
-
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>C/C++</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> <span>79%</span> </div>
-                 </div>
-              </div>
-
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>JAVA</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"> <span>79%</span> </div>
-                 </div>
-              </div>
-
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>Objective-C</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"> <span>79%</span> </div>
-                 </div>
-              </div>
-
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>R</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"> <span>79%</span> </div>
-                 </div>
-              </div>
-
-              <div class="skill-progress">
-                 <div class="skill-title"> <span>Octave</span> </div>
-                 <div class="progress">
-                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"> <span>79%</span> </div>
-                 </div>
-              </div>
+              {% for post in site.skills %}
+                <div class="skill-progress">
+                   <div class="skill-title"> <span>post.name</span> </div>
+                   <div class="progress">
+                      <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="{{ post.level }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ post.level }}%;"> <span>79%</span> </div>
+                   </div>
+                </div>
+              {% endfor %}
             </div>
 
 
