@@ -16,7 +16,6 @@ body {
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 p {
@@ -38,7 +37,6 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 a:hover,
@@ -78,7 +76,6 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-primary:hover,
@@ -89,7 +86,6 @@ h6 {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-primary:active,
@@ -115,13 +111,11 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-xl {
@@ -134,7 +128,6 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 
@@ -167,7 +160,6 @@ figure:hover+span {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-xl:active,
@@ -193,12 +185,10 @@ fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl.active {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
     background-color: #fff;
 }
 
@@ -210,7 +200,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -226,7 +215,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -237,7 +225,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .navbar-default .nav li a {
@@ -255,14 +242,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -797,7 +782,6 @@ section#contact .form-group textarea.form-control {
 
 section#contact .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
     box-shadow: none;
 }
 
@@ -876,7 +860,6 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 
@@ -887,7 +870,6 @@ ul.social-buttons li a.facebook:hover,
 ul.social-buttons li a.facebook:focus,
 ul.social-buttons li a.facebook:active {
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 ul.social-buttons li a.github{
@@ -897,7 +879,6 @@ ul.social-buttons li a.github:hover,
 ul.social-buttons li a.github:focus,
 ul.social-buttons li a.github:active {
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 ul.social-buttons li a.linkedin{
@@ -908,7 +889,6 @@ ul.social-buttons li a.linkedin:hover,
 ul.social-buttons li a.linkedin:focus,
 ul.social-buttons li a.linkedin:active {
     background-color: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 .btn:focus,
@@ -992,13 +972,11 @@ ul.social-buttons li a.linkedin:active {
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 ::selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};
-    background-image: {{ site.data.template.color.image }};
 }
 
 img::selection {
